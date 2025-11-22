@@ -9,12 +9,69 @@
  */
 {
   "sections": {
+    "custom_section_jykh6B": {
+      "type": "custom-section",
+      "blocks": {
+        "group_YHkcxq": {
+          "type": "group",
+          "name": "t:general.row",
+          "settings": {
+            "layout_direction": "group--horizontal",
+            "alignment": "flex-start",
+            "padding": 0
+          },
+          "blocks": {
+            "text_G6QfFJ": {
+              "type": "text",
+              "name": "t:general.text",
+              "settings": {
+                "text": "Text",
+                "text_style": "text--title",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "text_ndHtMq": {
+              "type": "text",
+              "name": "t:general.text",
+              "settings": {
+                "text": "Text",
+                "text_style": "text--title",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
+            "text_Eh4npD": {
+              "type": "text",
+              "name": "t:general.text",
+              "settings": {
+                "text": "Text",
+                "text_style": "text--title",
+                "alignment": "left"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_G6QfFJ",
+            "text_ndHtMq",
+            "text_Eh4npD"
+          ]
+        }
+      },
+      "block_order": [
+        "group_YHkcxq"
+      ],
+      "name": "t:general.custom_section",
+      "settings": {}
+    },
     "main": {
       "type": "hello-world",
       "settings": {}
     }
   },
   "order": [
+    "custom_section_jykh6B",
     "main"
   ]
 }
